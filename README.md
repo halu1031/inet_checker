@@ -1,5 +1,5 @@
 # inet_checker
-Small python script which checks the internet connection and blinks if there is no connection. 
+Small Python script that checks the internet connection and blinks if there is no connection.
 
 Resistor with **230Ω**
 
