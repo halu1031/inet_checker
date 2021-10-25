@@ -1,5 +1,18 @@
 # inet_checker
 Small python script which checks the internet connection and blinks if there is no connection. 
 
+Resistor with **230Ω**
 
-![](https://github.com/iamluhae/inet_checker/blob/main/gpio.png)
+![GPIO Layout Raspi Zero](https://github.com/iamluhae/inet_checker/blob/main/gpio.png)
+
+Edit **inet_checker.py** script
+
+Add python script to autostart
+
+`sudo nano /etc/rc.local`
+
+Add following code
+
+`sudo python /home/pi/inet_checker.py &`
+
+Reboot Raspberry Pi Zero
