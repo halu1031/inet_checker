@@ -1,4 +1,4 @@
-# inet_checker
+# raspberry pi zero inet_checker
 Small Python script that checks the internet connection and blinks if there is no connection.
 
 Resistor with **230Ω**
